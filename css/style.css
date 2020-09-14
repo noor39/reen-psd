@@ -1,0 +1,206 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/***************************************************
+*****  Reen Home Page Coding Start
+*************************************************/
+
+
+/*      Header  Section  */
+.header-section{width: 100%;
+}
+.top-header{
+	width: 100%;
+	padding: 10px 0px;
+background: #f5f7fa;}
+.top-header .info-inner{
+	display: block;
+	margin: 0px;
+
+}
+.top-header .info-inner li {
+	margin: 4px; 
+	list-style: none;
+	display: inline-block;
+}
+.top-header .info-inner li a{
+	font-size: 14px;
+	font-width:500;
+	color: #506a85;
+	margin-right: 15px;
+}
+.top-header .info-inner li a:hover{
+	text-decoration: none;
+	
+}
+
+.top-header .info-inner li a .fa{
+	margin-right: 10px;
+}
+.top-header .social-icon {
+	font-size: 14px;
+	display: block;
+	text-align: right;
+	margin: 10px;
+}
+
+.top-header .social-icon  li  {
+	display: inline-flex;
+	list-style: none;
+	margin: 0 7px;
+	font-size: 14px;
+	color: #506a85;
+	}
+.top-header .social-icon  li a  {
+
+	font-size: 15px;
+	color: #506a85;
+	margin: 0px 0px 0px 19px;
+	}
+
+.header-section .bg-light{
+	background-color: #fff !important;
+}
+.header-section .navbar-expand-lg .nav-link{
+ margin-left: 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 20px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #506a85;
+    font-size: 14px;
+    padding: 0px 25px;
+   margin: 0px 15px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #506a85;
+	font-weight: 400;
+}
+.header-section .rightsearch .fa{
+	color: #506a85;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus, .header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #00bc9c;
+}
+/*****************************************
+**** Slider section start****
+*******************************************/
+.slidet{
+	width: 100%;
+}
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.slider .carousel-caption h2 {
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 74px;
+}
+.slider .carousel-caption p{
+	font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #8697a8;
+}
+.slider .carousel-caption .btn-info {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 6px 36px;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+    background: #00bc9c;
+    color: #fff;
+    font-weight: 600;
+    transition: 1s;
+}
+.slider .carousel-caption .btn-info:focus,.slider .carousel-caption .btn-info:hover{
+	border: 1px solid #00bc9c;
+    background: transparent;
+    color: #fff;
+}
+/**************************************
+******** slider section Start
+****************************************/
+
+/**************************************
+******** Who we are section Start
+****************************************/
+.who-we-are{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-are .title{
+	width: 100%;
+	text-align: center;
+}
+.who-we-are .title h2{
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 74px;
+    color: #506a85;
+}
+.who-we-are .title p{
+	font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #8697a8;
+}
+.who-we-are .media{
+	margin-top: 40px;
+}
+
+.media-body h5{
+	font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 28px;
+    color: #506a85;
+
+}
+ .media .media-body p{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #a3b1bf;
+
+}
+
+
+/**************************************
+******** Who we are section Start
+****************************************/
