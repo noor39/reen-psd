@@ -166,7 +166,7 @@ background: #f5f7fa;}
 .who-we-are .title h2{
     font-size: 64px;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 4px;
     line-height: 74px;
     color: #506a85;
